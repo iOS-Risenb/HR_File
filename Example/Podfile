@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_File_Example' do
+  pod 'HR_File', :path => '../'
+
+  target 'HR_File_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
