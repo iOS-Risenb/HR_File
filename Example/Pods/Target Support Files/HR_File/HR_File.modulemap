@@ -1,0 +1,6 @@
+framework module HR_File {
+  umbrella header "HR_File-umbrella.h"
+
+  export *
+  module * { export * }
+}
